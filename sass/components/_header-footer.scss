@@ -1,0 +1,75 @@
+/* header */
+.header {
+    border-bottom: 1px solid #ececec;
+}
+
+.header--position {
+    display: flex;
+
+    align-items: center;
+}
+
+/* footer*/
+
+.footer {
+    padding-bottom: 60px;
+    background-color: $background;
+}
+
+.footer--block {
+    display: flex;
+}
+
+.footer--margin {
+    margin-top: 60px;
+}
+
+.joing {
+    margin-top: 72px;
+    margin-left: 70px;
+}
+
+.joing__text {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.subscribe {
+    display: flex;
+}
+
+.subscribe--margin {
+    margin-top: 72px;
+    margin-left: 93px;
+}
+
+.subscribe__input {
+    padding-left: 16px;
+
+    width: 358px;
+    height: 50px;
+    
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+
+.subscribe__icon {
+    margin-left: 10px;
+
+    display: block;
+    width: 24px;
+    height: 24px;
+
+    background-image: url('../images/plane.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
