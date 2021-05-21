@@ -1,14 +1,14 @@
 .networks {
     display: inline-flex;
+
+    &__item:not(:last-child) {
+        margin-right: 10px;
+    }
 }
 
 .networks--position {
     display: flex;
     justify-content: center;
-}
-
-.networks__item:not(:last-child) {
-    margin-right: 10px;
 }
 
 .networks__link {

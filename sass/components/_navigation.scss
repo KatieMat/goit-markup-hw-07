@@ -7,6 +7,10 @@
     display: flex;
 
     align-items: center;
+
+    &__item:not(:last-child) {
+        margin-right: 50px;
+    }
 }
 
 .site-nav__link {
@@ -49,8 +53,4 @@
         border-radius: 2px;
         background-color: $accent-color;
     }
-}
-
-.site-nav__item:not(:last-child) {
-    margin-right: 50px;
 }

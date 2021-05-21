@@ -4,11 +4,13 @@
     margin-left: auto;
   
     align-items: center;
+
+    &__item:not(:last-child) {
+        margin-right: 50px;
+    }
 }
 
-.contacts__item:not(:last-child) {
-    margin-right: 50px;
-}
+
 
 .contacts__link {
     font-weight: 500;
@@ -67,12 +69,13 @@
     font-size: 14px;
     line-height: 1.71;
     color: #ffffff;
+
+    &__item:not(:last-child) {
+        margin-bottom: 9px;
+    }
 }
 
 .address__text {
     margin-bottom: 9px;
 }
 
-.address__item:not(:last-child) {
-    margin-bottom: 9px;
-}

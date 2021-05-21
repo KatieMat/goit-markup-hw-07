@@ -1,5 +1,9 @@
 .client {
     display: flex;
+
+    &__item:not(:last-child) {
+        margin-right: 30px;
+    }
 }
   
 .client__link {
@@ -24,9 +28,4 @@
         fill: $accent-color;
         border-color: $accent-color;
     }
-}
-  
-  
-.client__item:not(:last-child) {
-    margin-right: 30px;
 }

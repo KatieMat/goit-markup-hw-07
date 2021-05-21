@@ -1,18 +1,18 @@
 .pictures {
     display: flex;
+
+    &__item:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
-.pictures__item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.pictures__thumb{
+.pictures__thumb {
     position: relative;
   
     overflow: hidden;
 }
 
-.pictures__overlay{
+.pictures__overlay {
     position: absolute;
     bottom: 0;
 
